@@ -19,6 +19,14 @@
 
 ### Ответ на второй вопрос домашней работы
 
+Команды:
+
+Создаём контейнер - `docker run --name my_python -d -i python:3.10`
+
+Заходим в него `docker exec -it my_python bash`
+
+Внутри контейнера проверяем версию **python**: `python --version`
+
 ```
 fedor@fedor-Z68P-DS3:~/CODE/SkyPro/docker_hw$ docker run -d -i python:3.10
 91af3a0326baf45f1d505bd082a0dec35723b71247b261279f36b87f0e3da0d3
